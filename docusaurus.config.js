@@ -98,8 +98,8 @@ const config = {
         title: "Tether theme",
         logo: {
           alt: "HexSwitch Studios logo",
-          src: "img/logo-light.svg",
-          srcDark: "img/logo-dark.svg",
+          src: "img/logo-dark.svg",
+          srcDark: "img/logo-light.svg",
         },
         items: [
           {
@@ -133,8 +133,8 @@ const config = {
         style: "light",
         logo: {
           alt: "HexSwitch logo",
-          src: "img/logo-light.svg",
-          srcDark: "img/logo-dark.svg",
+          src: "img/logo-dark.svg",
+          srcDark: "img/logo-light.svg",
           href: "https://hexswitch.com",
           height: 50,
         },

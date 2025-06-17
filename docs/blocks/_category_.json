@@ -3,6 +3,6 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Blocks are individual content elements that make up parts of a Section layout. Each block controls a specific piece of content, giving you detailed control over how your store looks and functions."
+    "description": "Blocks are individual content elements that make up parts of a Section layout. Each block controls a specific piece of content, giving you detailed control over how your store looks and functions. The following articles cover the repeatable blocks available in many sections. Section specific blocks like the Slide block in the Slideshow Section is covered within the documentation for that section."
   }
 }
