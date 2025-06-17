@@ -95,7 +95,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "HexSwitch",
+        title: "Tether theme",
         logo: {
           alt: "HexSwitch Studios logo",
           src: "img/logo-light.svg",
