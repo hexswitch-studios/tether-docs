@@ -1,0 +1,44 @@
+.container {
+  --field-input-height: 36px;
+  margin: 0 auto;
+  max-width: var(--ifm-container-width-narrow);
+  padding: 0 var(--ifm-spacing-horizontal);
+  width: 100%;
+
+  input {
+    height: var(--field-input-height);
+  }
+
+  input,
+  textarea {
+    padding: 8px 12px;
+    width: 100%;
+  }
+
+  input[id="file"] {
+    padding-left: 0;
+  }
+
+  button {
+    margin-top: 18px;
+  }
+
+  textarea {
+    font-family: inherit;
+  }
+
+  form {
+    margin-top: 30px;
+  }
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.field + .field {
+  margin-top: 15px;
+}

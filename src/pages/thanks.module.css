@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+  max-width: var(--ifm-container-width-narrow);
+  padding: 0 var(--ifm-spacing-horizontal);
+  width: 100%;
+
+  img {
+    margin-bottom: 20px;
+  }
+}

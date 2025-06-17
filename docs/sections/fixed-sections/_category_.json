@@ -1,0 +1,8 @@
+{
+  "label": "Fixed sections",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Sections are customizable content areas within a Shopify theme. They structure the layout of your pages. They can be added, removed, or rearranged in the theme editor."
+  }
+}

@@ -10,9 +10,39 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Theme docs",
-  tagline: "Dinosaurs are cool",
+  title: "Tether docs",
+  tagline: "Documentation and general guides for the Tether theme on Shopify.",
   favicon: "img/favicon.ico",
+
+  headTags: [
+    {
+      tagName: "link",
+      attributes: {
+        rel: "icon",
+        href: "img/favicon-light.svg",
+        type: "image/svg+xml",
+        sizes: "32x32",
+        media: "(prefers-color-scheme: light)",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "icon",
+        href: "img/favicon-dark.svg",
+        type: "image/svg+xml",
+        sizes: "32x32",
+        media: "(prefers-color-scheme: dark)",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:300",
+      },
+    },
+  ],
 
   // Set the production url of your site here
   url: "http://hexswitch-studios.github.io",
@@ -23,11 +53,11 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "hexswitch-studios", // Usually your GitHub org/user name.
-  projectName: "unnamed-docs", // Usually your repo name.
+  projectName: "tether-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  trailingSlash: true,
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -65,55 +95,49 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "HexSwitch",
+        logo: {
+          alt: "HexSwitch Studios logo",
+          src: "img/logo-light.svg",
+          srcDark: "img/logo-dark.svg",
+        },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            to: "/category/getting-started",
+            label: "Getting started",
             position: "left",
-            label: "Tutorial",
+          },
+          {
+            to: "/category/theme-settings",
+            label: "Theme settings",
+            position: "left",
+          },
+          {
+            to: "/category/sections",
+            label: "Sections",
+            position: "left",
+          },
+          {
+            to: "/category/blocks",
+            label: "Blocks",
+            position: "left",
+          },
+          {
+            to: "/contact",
+            label: "Contact us",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "X",
-                href: "https://x.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
-        ],
+        style: "light",
+        logo: {
+          alt: "HexSwitch logo",
+          src: "img/logo-light.svg",
+          srcDark: "img/logo-dark.svg",
+          href: "https://hexswitch.com",
+          height: 50,
+        },
         copyright: `Copyright © ${new Date().getFullYear()} HexSwitch Studios.`,
       },
       prism: {

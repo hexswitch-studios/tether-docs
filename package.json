@@ -24,7 +24,9 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.7.0",
-    "@docusaurus/types": "3.7.0"
+    "@docusaurus/types": "3.7.0",
+    "@formspree/react": "^3.0.0",
+    "react-player": "^2.16.0"
   },
   "browserslist": {
     "production": [
