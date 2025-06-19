@@ -10,8 +10,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Tether docs",
-  tagline: "Documentation and general guides for the Tether theme on Shopify.",
+  title: "Haven docs",
+  tagline: "Documentation and general guides for the Haven theme on Shopify.",
   favicon: "img/favicon.ico",
 
   headTags: [
@@ -95,7 +95,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Tether theme",
+        title: "Haven theme",
         logo: {
           alt: "HexSwitch Studios logo",
           src: "img/logo-dark.svg",
