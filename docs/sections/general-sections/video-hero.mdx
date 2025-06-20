@@ -1,0 +1,43 @@
+# Video hero
+
+The Video hero section is a bold, immersive banner that uses autoplaying video as its background. It's ideal for creating a dynamic first impression or showcasing movement, mood, or lifestyle in a way static images can't.
+
+---
+
+## Settings
+
+| Setting               | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Color scheme**         | Select a predefined color scheme. The background color is used for overlays. |
+| **Section height**         | [See shared settings > Section height](#section-height). Associated settings below.                        |
+| **Video overlay opacity**| Adds a semi-transparent overlay on top of the video using the selected scheme background. Use this to improve text readability. |
+| **Video**        | Select the default video. |
+| **Mobile video** `*`         | _Optional_. Upload a different image optimized for smaller screens. If left blank, the desktop image will be used on all devices. |
+| **External video url**        | Use a video already uploaded to Youtube or Vimeo. |
+| **Poster image**         | A fallback image visible for devices that block autoplaying videos. |
+| **Section animations**     | Animate section when scrolled into view.                    |
+
+:::tip
+External video sources use fixed aspect ratios. Section height being set to Video height is highly encouraged for external media.
+:::
+
+![Video hero settings being shown](./img/video-hero-1-settings.gif)
+
+---
+
+import SharedSettings from '../_shared-settings/_shared-settings.md'
+
+<SharedSettings />
+
+import SectionHeight from '../_shared-settings/_section-height.mdx';
+
+<SectionHeight heightLabel="Video" />
+
+import OverlayContent from '../_shared-settings/_overlay-content.md';
+
+<OverlayContent />
+
+
+import NestedBlocks from '../_shared-settings/_nested-blocks.md';
+
+<NestedBlocks />
