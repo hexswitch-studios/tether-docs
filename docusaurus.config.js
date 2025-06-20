@@ -39,7 +39,7 @@ const config = {
       tagName: "link",
       attributes: {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:300",
+        href: "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap",
       },
     },
   ],
@@ -97,7 +97,7 @@ const config = {
       navbar: {
         title: "Haven theme",
         logo: {
-          alt: "HexSwitch Studios logo",
+          alt: "Hex Switch Studios logo",
           src: "img/logo-dark.svg",
           srcDark: "img/logo-light.svg",
         },
@@ -132,13 +132,13 @@ const config = {
       footer: {
         style: "light",
         logo: {
-          alt: "HexSwitch logo",
+          alt: "Hex Switch logo",
           src: "img/logo-dark.svg",
           srcDark: "img/logo-light.svg",
           href: "https://hexswitch.com",
           height: 50,
         },
-        copyright: `Copyright © ${new Date().getFullYear()} HexSwitch Studios.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hex witch Studios.`,
       },
       prism: {
         theme: prismThemes.github,
