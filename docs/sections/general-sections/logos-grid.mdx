@@ -1,6 +1,6 @@
-# Logos marquee
+# Logos grid
 
-The Logos marquee section displays a scrolling row of sponsor or brand logos. It's designed to highlight partnerships, featured brands, or trusted affiliations in a way that's visually engaging and space-efficient.
+The Logos grid section displays grid of sponsor or brand logos. It's designed to highlight partnerships, featured brands, or trusted affiliations in a way that's visually engaging and space-efficient.
 
 ---
 
@@ -9,21 +9,14 @@ The Logos marquee section displays a scrolling row of sponsor or brand logos. It
 | Setting               | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
 | **Color scheme**         | Select a predefined color scheme. The background color is used for overlays. |
+| **Content container**         | [See shared settings > Content container](#content-container). Associated settings below.                        |
 | **Prelude**         | [See shared settings > Prelude](#prelude). Associated settings below.                        |
-| **Scroll speed**       |  Control the scroll speed. |
-| **Scroll direction**       | Choose between left and right scroll direction. |
-| **Logo max width**       | Set the width of all logos in a single location. Ensures consistency across all logos. |
+| **Number of columns on mobile**       | How many logos are visible in a row on mobile. Keeps logo size consistent between rows. |
+| **Desktop max width**       | Set the desktop width of all logos in a single location. Ensures consistency across all logos at desktop screen sizes. |
 | **Section spacing & border**     | [See shared settings > Section spacing & border](#spacing-and-border). Associated settings below.                    |
 | **Section animations**     | Animate section when scrolled into view.                    |
 
-![Logos marquee section settings being shown](./img/logos-marquee-1-settings.gif)
-
-:::note Scroll speed
-
-The scroll speed is calculated using a fairly complex math equation that factors the amount of content within a marquee scroller and how much width the content takes.
-
-You may need to adjust the scroll speed after altering your content.
-:::
+![Logos grid section settings being shown](./img/logos-grid-1-settings.gif)
 
 
 ---
@@ -31,6 +24,10 @@ You may need to adjust the scroll speed after altering your content.
 import SharedSettings from '../_shared-settings/_shared-settings.md'
 
 <SharedSettings />
+
+import ContentContainer from '../_shared-settings/_content-container.mdx';
+
+<ContentContainer />
 
 import Prelude from '../_shared-settings/_prelude.mdx';
 
@@ -44,4 +41,4 @@ import SpacingAndBorder from '../_shared-settings/_spacing-and-border.mdx';
 
 Each Logo block contains a single logo image, with an optional link.
 
-![Using the Logos marquee text block](./img/logos-marquee-2-block-logo.gif)
+![Using the Logos grid's text block](./img/logos-grid-2-block-logo.gif)
