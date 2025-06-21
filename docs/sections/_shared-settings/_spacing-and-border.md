@@ -1,0 +1,9 @@
+### Spacing and border
+
+The section Spacing & Border settings allow you to control how much vertical space line between your sections. Mix and match to find what works for you. Show a stylistic border between sections to emphasize the break between content.
+
+| Setting               | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Top spacing**         | How much spacing applies to the top of this section.                       |
+| **Bottom spacing**         | How much spacing applies to the bottom of this section.                       |
+| **Show bottom border**   | Show a stylistic border at the bottom of the section spacing        |
