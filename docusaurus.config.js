@@ -138,7 +138,7 @@ const config = {
           href: "https://hexswitch.com",
           height: 50,
         },
-        copyright: `Copyright © ${new Date().getFullYear()} Hex witch Studios.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://hexswitch.com">Hex Switch Studios</a>.`,
       },
       prism: {
         theme: prismThemes.github,
