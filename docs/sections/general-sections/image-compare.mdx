@@ -1,0 +1,49 @@
+# Image compare
+
+The Image compare section lets customers interactively slide between two images—perfect for showing before-and-after shots, product variations, or design changes in a visual and engaging way.
+
+---
+
+## Settings
+
+| Setting               | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Color scheme**         | Select a predefined color scheme. |
+| **Prelude**         | [See shared settings > Prelude](#prelude). Associated settings below.                        |
+| **Aspect ratio**         | Control the aspect ratio of images on both image comparisons. |
+| **Image display width**       | Choose whether the images stay within the theme's normal padding or extends beyond it for a more immersive layout. Extended allows the image to break out of the usual bounds, while within bounds keeps it aligned with the page content. |
+| **Starting reveal amount**         | Choose how much of the left or right image is revealed without user interaction.                        |
+| **Reveal content threshold**         | Each compare image content shows when a specific amount of that side has been revealed. This setting controls the amount needed to be visible to show the content. Show initial content without interaction by setting the 'Starting reveal amount' higher than the threshold.                        |
+| **Section spacing & border**     | [See shared settings > Section spacing & border](#spacing-and-border). Associated settings below.                    |
+| **Section animations**     | Animate section when scrolled into view.                    |
+
+![Image compare section settings being shown](./img/image-compare-1-settings.gif)
+
+
+---
+
+import SharedSettings from '../_shared-settings/_shared-settings.md'
+
+<SharedSettings />
+
+import Prelude from '../_shared-settings/_prelude.mdx';
+
+<Prelude />
+
+import SpacingAndBorder from '../_shared-settings/_spacing-and-border.mdx';
+
+<SpacingAndBorder />
+
+## Block - Left / Right compare
+
+Settings are identical for the Left and Right compare blocks.
+
+| Setting               | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Color scheme**         | Select a predefined color scheme. |
+| **Image**         | Set your comparison image.                        |
+| **Image overlay opacity**| Adds a semi-transparent overlay on top of the image using the selected scheme background. Use this to improve text readability. |
+| **Vertical content alignment**       | Control how your nested content block align vertically within the comparison image. |
+
+![Using the Logos grid's text block](./img/image-compare-2-block-settings.gif)
+
