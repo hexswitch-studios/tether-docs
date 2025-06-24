@@ -1,0 +1,8 @@
+{
+  "label": "Template sections",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "These sections are tied to specific template types (or pages), such as product pages, collection pages, or blog posts. They're used to control layout and content unique to that page type."
+  }
+}
