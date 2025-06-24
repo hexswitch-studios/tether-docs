@@ -7,7 +7,7 @@ The Quick Cart lets customers view and manage their cart without leaving the pag
 Control the visibility of the Quick Cart and choose where to display the free shipping bar. These settings help you fine-tune how the cart appears and communicates incentives to your customers.
 
 :::note
-The quick cart shares some fundamental settings with the Cart Template. Additional Cart related settings can be found in [Theme settings > Cart](#TODO)
+The quick cart shares some fundamental settings with the Cart Template. Additional Cart related settings can be found in [Theme settings > Cart](/)
 :::
 
 ![Quick cart settings](./img/quick-cart-1-settings.gif)
