@@ -133,6 +133,11 @@ const config = {
             position: "left",
           },
           {
+            to: "/changelog",
+            label: "Changelog",
+            position: "right",
+          },
+          {
             to: "/contact",
             label: "Contact us",
             position: "right",
