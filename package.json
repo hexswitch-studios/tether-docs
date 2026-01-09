@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build:changelog": "node ./scripts/build-changelog-json.mjs",
     "build": "npm run build:changelog && docusaurus build",
-    "build:github-pages": "npm run build",
+    "build:github-pages": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
